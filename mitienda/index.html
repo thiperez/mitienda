@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Ropa</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }body {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.producto {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.producto h3 {
+  margin: 15px 0 5px;
+}
+
+.producto p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.producto button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.producto button:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+ 
+
+
+
+  </style>
+</head
+<body> <header>
+    <h1>Mi Tienda de Ropa</h1>
+    <p>Moda urbana • Estilo propio</p>
+  </header> <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Hombres</a>
+    <a href="#">Mujeres</a>
+    <a href="#">Contacto</a>
+  </nav> <main class="container">
+    <h2 style="margin-bottom:20px">Productos destacados</h2><section class="productos">
+  <div class="producto">
+    <img src="https://via.placeholder.com/400x500" alt="Remera">
+    <h3>Remera Oversize</h3>
+    <p>Algodón premium</p>
+    <div class="precio">$12.000</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/400x500" alt="Pantalón">
+    <h3>Pantalon Baggi</h3>
+    <p>Unisex</p>
+    <div class="precio">$25.000</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="producto">
+    <img src="https://via.placeholder.com/400x500" alt="Pantalón">
+    <h3>Pantalón Cargo</h3>
+    <p>Estilo urbano</p>
+    <div class="precio">$30.000</div>
+    <button>Comprar</button>
+  </div>
+</section>
+
+  </main> <footer>
+    <p>© 2026 Mi Tienda de Ropa – Todos los derechos reservados</p>
+  </footer></body>
+</html>
